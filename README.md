@@ -1,7 +1,7 @@
 # STM32 ↔ ESP32 SPI Cross-Device Communication
 
 Bare-metal STM32F446RE SPI master communicating with ESP32 WROOM 
-SPI slave over 3 wires at 2MHz. Implemented without HAL using 
+SPI slave at 2MHz. Implemented without HAL using 
 custom register-level SPI driver on the STM32 side and ESP-IDF 
 SPI slave driver on the ESP32 side.
 
@@ -15,6 +15,7 @@ SPI slave driver on the ESP32 side.
 | Signal | STM32 Pin | ESP32 GPIO |
 |--------|-----------|------------|
 | MOSI   | PA7       | GPIO12     |
+| MISO   | PA6       | GPIO13     |
 | SCLK   | PA5       | GPIO15     |
 | CS     | PA4       | GPIO14     |
 | GND    | GND       | GND        |
