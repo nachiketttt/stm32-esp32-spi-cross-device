@@ -48,7 +48,7 @@ reception confirmed immediately.
 ## Verification
 
 ### Logic Analyzer — MOSI Signal (PulseView)
-![Logic Analyzer Capture](001_pulseview.png)
+![Logic Analyzer Capture](images/001_pulseview.png)
 
 ### ESP32 Serial Monitor Output
-![ESP32 Serial Output](001_esp32_output.png)
+![ESP32 Serial Output](images/001_esp32_output.png)
