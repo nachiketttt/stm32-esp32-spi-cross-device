@@ -42,8 +42,9 @@ SPI slave driver on the ESP32 side.
 ## A Problem I Solved
 ESP32 received garbage data for over an hour. Logic analyzer 
 confirmed STM32 was transmitting Hello World correctly 
-(48 65 6C 6C 6F 20 57 6F 72 6C 64). Fault isolated to an 
-unconnected MOSI wire. Physical connection fixed, clean 
+(48 65 6C 6C 6F 20 57 6F 72 6C 64). Fault isolated to a wrongly 
+coded slave select pin causing errors. 
+Physical connection fixed, clean 
 reception confirmed immediately.
 
 ## Verification
