@@ -1,0 +1,14 @@
+# STM32CubeIDE
+.settings/
+Debug/
+Release/
+*.launch
+*.ld
+.cproject
+.project
+
+# ESP-IDF
+build/
+managed_components/
+.espressif/
+*.log
