@@ -44,3 +44,11 @@ confirmed STM32 was transmitting Hello World correctly
 (48 65 6C 6C 6F 20 57 6F 72 6C 64). Fault isolated to an 
 unconnected MOSI wire. Physical connection fixed, clean 
 reception confirmed immediately.
+
+## Verification
+
+### Logic Analyzer — MOSI Signal (PulseView)
+![Logic Analyzer Capture](001_pulseview.png)
+
+### ESP32 Serial Monitor Output
+![ESP32 Serial Output](001_esp32_output.png)
